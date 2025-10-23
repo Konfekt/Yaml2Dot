@@ -57,7 +57,11 @@ Before using the YAML to DOT Converter, ensure you have the following dependenci
 
 ### Installation
 
-The most straightforward way to install is to use pip:
+The most straightforward way to install is `uv tool install git+https://github.com/AdrianMartinezCodes/Yaml2Dot`.
+
+If `uv` is not available, try `pipx install git+https://github.com/AdrianMartinezCodes/Yaml2Dot`.
+
+Otherwise, fall back to `pip`:
 
 ```bash
 pip install yaml2dot
